@@ -153,34 +153,6 @@ def showinfo(arr, sizeOfArray, emptyIndexArray, filledIndexArray):
         print(f"{arr[i]   }", end=" "),
 
 
-# def UpdateArr(choice):
-#     if choice == 1:
-#         if isArray1Created:
-#             update(arr1)
-#         else:
-#             print("Create Array to update")
-
-#     elif choice == 2:
-#         if isArray2Created:
-#             update(arr2)
-#         else:
-#             print("Create Array to update")
-#     else:
-#         print("Wrong Choice")
-
-
-# def update(arr):
-#     i = 0
-#     new_var = userInput("Which element you want to add? ")
-#     new_arr = []
-#     new_arr += []
-#     i += 1
-#     while i < len(arr):
-#         new_arr1 = arr[i]
-#         i += 1
-#     return arr[i]
-
-
 def UpdateArr(choice):
     global arr1, isArray1Created, isArray1Empty, isArray1Full
     global arr2, isArray2Created, isArray2Empty, isArray2Full
@@ -408,64 +380,7 @@ def insertMenu():
     print("1. Insert at first index ")
     print("2. Insert at last index ")
     print("3. Insert at after certain index ")
-    # print("4. Insert at particular index ")
     print("------------------------------")
 
 
 menu()
-
-
-
-
-
-# def UpdateArr(choice):
-#     if choice == 1:
-#         if isArray1Created:
-#             update(arr1)
-#         else:
-#             print("Create Array to update")
-
-#     elif choice == 2:
-#         if isArray2Created:
-#             update(arr2)
-#         else:
-#             print("Create Array to update")
-#     else:
-#         print("Wrong Choice")
-
-
-# def update(arr):
-#     i = 0
-#     new_var = userInput("Which element you want to add? ")
-#     new_arr = []
-#     new_arr += []
-#     i += 1
-#     while i < len(arr):
-#         new_arr1 = arr[i]
-#         i += 1
-#     return arr[i]
-
-
-# def UpdateArr(choice):
-#     global arr1, isArray1Created, isArray1Empty, isArray1Full
-#     global arr2, isArray2Created, isArray2Empty, isArray2Full
-#     if choice == 1:
-#         if isArray1Created:
-#             updatevar = userInput("write element to append")
-#             arr1 = int(arr1.append(updatevar))
-#             return arr1
-#             # print(f"update array is {arr1}.")
-#         else:
-#             print("Create your array first")
-
-#     elif choice == 2:
-
-#         if isArray2Created:
-#             updatevar = userInput("write element to append")
-#             arr1 = int(arr2.append(updatevar))
-#             return arr2
-#         else:
-#             print("Create your array first")
-#     else:
-#         print("Array doesn't exist")
-
